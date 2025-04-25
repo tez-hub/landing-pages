@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Nav from "../nav/Nav";
 import "./hero.css";
 import gsap from "gsap";
+import HeroImage from '../../assets/hero.jpg'
 
 const Hero = () => {
 
@@ -15,7 +16,9 @@ const Hero = () => {
             duration: 1.5,
             delay: 1.5
         })
-    }, [])
+    }, []);
+
+
     return (
         <>
         <Nav />
@@ -34,6 +37,10 @@ const Hero = () => {
             <div className="hero__desc__right">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum facere veniam placeat possimus? Explicabo quaerat aliquid aliquam voluptates! Quidem rem reprehenderit incidunt sequi aut voluptatem qui non mollitia blanditiis?</p>
             </div>
+        </div>
+
+        <div className="hero__img">
+            <img src={HeroImage} alt="" />
         </div>
         </>
     )
