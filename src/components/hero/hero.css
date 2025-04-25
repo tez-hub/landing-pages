@@ -45,10 +45,10 @@
 
     img{
         width: 90%;
-        height: 90vh;
+        height: 94vh;
         object-fit: cover;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
         border-radius: 20px;
     }
 }

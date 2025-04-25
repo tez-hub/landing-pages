@@ -3,8 +3,21 @@ import { useEffect } from 'react'
 import './App.css'
 import Hero from './components/hero/Hero'
 import gsap from 'gsap';
+import About from './components/about/About';
 
 function App() {
+
+
+  useEffect(() => {
+    // Prevent scroll restoration on refresh
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+
+    // Scroll to top on initial load
+    window.scrollTo(0, 0);
+  }, []);
+  
 
   useEffect(() => {
     gsap.to(".overlay", {
@@ -28,6 +41,7 @@ function App() {
     <div className="hero">
       <Hero />
     </div>
+    <About />
     </>
   )
 }

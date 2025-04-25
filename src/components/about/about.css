@@ -1,0 +1,12 @@
+.about__section{
+    display: flex;
+    height: 80vh;
+
+    .about__section__one{
+        width: 50%;
+    }
+
+    .about__section__two{
+        width: 50%;
+    }
+}
