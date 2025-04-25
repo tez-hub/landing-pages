@@ -1,0 +1,82 @@
+.navbar{
+    width: 100%;
+    
+    .div__stuff{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        right: 50px;
+
+        .red__one{
+            width: 60px;
+            height: 55vh;
+        }
+
+        .one{
+            background: linear-gradient(180deg, rgba(255, 0, 0, 0.2), rgb(255, 255, 255));
+        }
+        .two{
+            background: linear-gradient(180deg, rgba(255, 0, 0, 0.4), rgb(255, 255, 255));
+        }
+        .three{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.6), rgb(255, 255, 255));
+        }
+        .four{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.8), rgb(255, 255, 255));
+        }
+        .five{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.92), rgb(255, 255, 255));
+        }
+        .six{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 1), rgb(255, 255, 255));
+        }
+        .seven{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.92), rgb(255, 255, 255));
+        }
+        .eight{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.8), rgb(255, 255, 255));
+        }
+        .nine{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.6), rgb(255, 255, 255));
+        }
+        .ten{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.4), rgb(255, 255, 255));
+        }
+        .eleven{
+            background:  linear-gradient(180deg, rgba(255, 0, 0, 0.2), rgb(255, 255, 255));
+        }
+    }
+
+    .navbar__details{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+
+        .logo{
+            font-size: 30px;
+        }
+
+        .nav__links ul{
+            display: flex;
+            list-style: none;
+            background-color: rgba(240, 248, 255, 0.5);
+            padding: 20px;
+            border-radius: 50px;
+
+            li{
+                font-size: 20px;
+                margin-left: 20px;
+                height: 40px;
+                background-color: white;
+                /* padding-top: 10px; */
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+            }
+        }
+    }
+}
