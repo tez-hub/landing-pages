@@ -1,7 +1,21 @@
+import { useEffect } from "react";
 import Nav from "../nav/Nav";
 import "./hero.css";
+import gsap from "gsap";
 
 const Hero = () => {
+
+    useEffect(()=> {
+        gsap.fromTo(".hero__cta", {
+            y: "100vh",
+            opacity: 0
+        }, {
+            y: 0,
+            opacity: 1,
+            duration: 1.5,
+            delay: 1.5
+        })
+    }, [])
     return (
         <>
         <Nav />

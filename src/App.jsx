@@ -9,15 +9,15 @@ function App() {
   useEffect(() => {
     gsap.to(".overlay", {
       y: "-100%",
-      duration: 1.5,
-      ease: "power4.inOut"
+      duration: 1.2,
+      // ease: "power4.inOut"
     });
 
     gsap.fromTo(".hero", {
-      y: "-100%"
+      y: "100%"
     }, {
       y: 0,
-      duration: 1.5,
+      duration: 1.2,
       // ease: "power4.inOut"
     })
   }, [])
