@@ -48,19 +48,16 @@
 
         .about__section__two__statistics{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
 
             .stat_one{
                 h4{
-                    font-size: 40px;
+                    font-size: 60px;
+                    margin: 0;
                 }
             }
 
-            .stat__two{
-                h4{
-                    font-size: 60px;
-                }
-            }
+           
         }
     }
 }

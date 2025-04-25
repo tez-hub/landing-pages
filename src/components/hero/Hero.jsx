@@ -16,6 +16,14 @@ const Hero = () => {
             duration: 1.5,
             delay: 1.5
         })
+
+        gsap.fromTo(".hero__img img", {
+            y: "100%"
+        }, {
+            y: 0,
+            delay: 2,
+            duration: 1
+        })
     }, []);
 
 
