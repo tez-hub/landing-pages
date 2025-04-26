@@ -4,6 +4,7 @@ import './App.css'
 import Hero from './components/hero/Hero'
 import gsap from 'gsap';
 import About from './components/about/About';
+import Services from './components/services/Services';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <Hero />
     </div>
     <About />
+    <Services />
     </>
   )
 }

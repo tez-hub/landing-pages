@@ -25,7 +25,7 @@ const About = () => {
             },
           }
         );
-      }, []);
+    }, []);
 
     const text =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi officia qui inventore? Fuga, voluptatum! Quas, fugiat, maiores, recusandae modi rem quos ipsam iste rerum tenetur debitis eius aliquam dolore iure.";

@@ -1,0 +1,18 @@
+.services{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 90vh;
+    margin-top: 80px;
+
+    .services__container{
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+
+        .services__container__image{
+            flex: 2;
+
+
+        }
+    }
+}
