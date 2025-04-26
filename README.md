@@ -30,4 +30,10 @@ useEffect(() => {
 ```
 https://github.com/user-attachments/assets/2021a61d-9a2a-4e48-8bae-2f0038f317f0
 
+### The services section on Day 2
+I have concluded the services section.
+
+
+
+https://github.com/user-attachments/assets/4e92dc64-5eca-465f-90a5-7af75b4372c9
 
