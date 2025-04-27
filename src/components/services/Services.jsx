@@ -29,6 +29,9 @@ const Services = () => {
                         className="service-image"
                         src={selectedService.image}
                         alt={selectedService.name}
+                        style={{
+                            transition: "1s ease, transform 1s ease"
+                        }}
                         // style={{ width: "100%", maxWidth: "500px", height: "340px", objectFit: "cover", borderRadius: "10px" }}
                     />
                     <div className="services__container__list">
@@ -75,6 +78,7 @@ const Services = () => {
                                         width:  selectedService.id === service.id ? "15px": "0px",
                                         borderRadius:  selectedService.id === service.id ? "50%" : "0",
                                         backgroundColor:  selectedService.id === service.id ? "red": "transparent",
+                                        transition: "all 0.3s ease",
                                         marginRight: "10px"
                                 }}></div> {service.name}
                             </div>
